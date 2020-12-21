@@ -19,11 +19,11 @@ int main()
 	cout << "Массив: ";
 	for (i = 0; i < 10; i++)
 	{
-		cout << setw(5) << m[i]; // вивід ел-тів масиву
+		cout << setw(10) << m[i]; // вивід ел-тів масиву
 
 	}
 	cout << endl;
-	cout << endl;
+
 
 
 }
