@@ -25,15 +25,5 @@ int main()
 	cout << endl;
 	cout << endl;
 
-	int sum = 0;
-	for (i = 0; i < 10; i++)
-	{
-		if ((i + 1) % 2 == 0) // парний индекс
-		{
-			sum += m[i];
-		}
-	}
-	cout << "Сума парних індексів: " << sum << endl;
-	cout << endl;
 
 }
